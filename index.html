@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>decisionBasis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=JetBrains+Mono:400,700&display=swap" rel="stylesheet">
+    <!-- Inline CSS -->
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'JetBrains Mono', monospace;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 70%;
+            margin: 0 auto;
+            padding: 5vh 0;
+        }
+        h1 {
+            font-size: 4vw;
+            margin-top: 5vh;
+            text-align: left;
+        }
+        p {
+            font-size: 2.5vw;
+            margin: 2vh 0;
+            line-height: 1.5;
+            text-align: left;
+        }
+        a {
+            color: #7af6d7;
+            text-decoration: none;
+            font-size: 2vw; /* Smaller font size for hyperlinks */
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            padding: 5vh 0;
+        }
+        .links {
+            font-size: 2vw;
+            text-align: left;
+        }
+        .links a {
+            margin: 1vh 0;
+        }
+        .past-activity {
+            color: #ff7070;
+            font-weight: bold;
+            text-align: left;
+        }
+        /* New Styles for Link Pairs */
+        .link-pair {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 1vh 0;
+        }
+        .link-pair a {
+            margin-right: 1vw;
+        }
+        /* Responsive Styles */
+        @media (max-width: 600px) {
+            .container {
+                max-width: 90%;
+                padding: 5vh 5vw;
+            }
+            h1 {
+                font-size: 8vw;
+                margin-top: 5vh;
+            }
+            p {
+                font-size: 4vw;
+                margin: 2vh 0;
+            }
+            a {
+                font-size: 3.5vw;
+            }
+            .links {
+                font-size: 3.5vw;
+            }
+            .link-pair a {
+                margin-right: 2vw;
+            }
+        }
+        @media (min-width: 1200px) {
+            h1 {
+                font-size: 48px;
+            }
+            p {
+                font-size: 24px;
+            }
+            a {
+                font-size: 18px;
+            }
+            .links {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>decisionBasis</h1>
+        <div class="section">
+            <p>Welcome to decisionBasis.</p>
+            <p>Everything is very simple out here:</p>
+            <p>You delegate to our indexers. We do our job. Everyone happy.</p>
+        </div>
+        <div class="section">
+            <p>Links to our TheGraph node:</p>
+            <div class="links">
+                <div class="link-pair">
+                    <a href="https://thegraph.com/explorer/profile/0xdecba5154aab37ae5e381a19f804f3af4d1bcbb5?view=Overview&chain=arbitrum-one" target="_blank">Arbitrum profile</a>
+                    <a href="https://arbitrum.graphscan.io/profile?id=0xdecba5154aab37ae5e381a19f804f3af4d1bcbb5#indexer-details" target="_blank">(graphscan stats)</a>
+                </div>
+                <a href="https://t.me/db_indexer" target="_blank">Telegram chat</a>
+            </div>
+        </div>
+        <div class="section">
+            <p class="past-activity">Past activity:</p>
+            <div class="links">
+                <a href="https://connextscan.io/router/0x75ee04316185200a51e995779f381ef63d39f7f9" target="_blank">Connext router</a>
+                <div class="link-pair">
+                    <a href="https://thegraph.com/explorer/profile/0x63c560997b8338f2b033f3ffdcc0f7c680feec45?view=Indexing&chain=mainnet" target="_blank">decisionBasis-i</a>
+                    <a href="https://graphscan.io/profile?id=0x63c560997b8338f2b033f3ffdcc0f7c680feec45#indexer-details" target="_blank">(graphscan stats)</a>
+                </div>
+                <div class="link-pair">
+                    <a href="https://network.thegraph.com/profile?id=0x040a8ae130b5fbac973074aa1bd2c69773c5fbc2&view=Indexing" target="_blank">decisionBasis-ii</a>
+                    <a href="https://graphscan.io/profile?id=0x040a8ae130b5fbac973074aa1bd2c69773c5fbc2#indexer-details" target="_blank">(stats)</a>
+                </div>
+                <div class="link-pair">
+                    <a href="https://network.thegraph.com/profile?id=0x81dd719fd7efb19d12740b8057c0e363bee35b4a&view=Indexing" target="_blank">decisionBasis-iii</a>
+                    <a href="https://graphscan.io/profile?id=0x81dd719fd7efb19d12740b8057c0e363bee35b4a#indexer-details" target="_blank">(stats)</a>
+                </div>
+                <div class="link-pair">
+                    <a href="https://network.thegraph.com/profile?id=0x901073d364f6af645648dc81d7f90e7aab47142d&view=Indexing" target="_blank">decisionBasis-iv</a>
+                    <a href="https://graphscan.io/profile?id=0x901073d364f6af645648dc81d7f90e7aab47142d#delegator-details" target="_blank">(stats)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
